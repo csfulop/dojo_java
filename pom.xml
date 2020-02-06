@@ -37,8 +37,13 @@
             <artifactId>mockito-core</artifactId>
             <version>3.2.4</version>
         </dependency>
-<!--        FIXME: GUAVA-->
-<!--        FIXME: lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
+            <scope>provided</scope>
+        </dependency>
+        <!--        FIXME: GUAVA-->
     </dependencies>
 
     <build>
@@ -60,4 +65,5 @@
             </plugins>
         </pluginManagement>
     </build>
+
 </project>
